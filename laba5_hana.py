@@ -270,7 +270,9 @@ xnat = [[x1min, x2min, x3min],
 n = 15
 m = 3
 
+# cycle for begin again if fisher is False
 while True:
+    # cycle for begin again if kohren is False
     while True:
         print("\nПоточний m = {}\n".format(m))
         xnatmod = [[xnat[i][j] for i in range(15)] for j in range(3)]
